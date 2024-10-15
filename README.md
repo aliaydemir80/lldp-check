@@ -8,6 +8,8 @@ git clone https://github.com/aliaydemir80/lldp-check.git
 
 cd lldp-check
 
+
+
 ## [01]  install and runn "nginx"
 
 sudo apt install nginx
@@ -48,10 +50,7 @@ sudo systemctl restart nginx
 
 ## [05]  add cron job
 
-sudo nano /etc/crontab
-
-
-0 * * * * cumulus /usr/local/bin/lldp-check
+echo "0 * * * * cumulus /usr/local/bin/lldp-check" | sudo tee -a /etc/crontab
 
 
 
