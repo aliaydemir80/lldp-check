@@ -8,7 +8,7 @@ git clone https://github.com/aliaydemir80/lldp-check.git
 
 cd lldp-check
 
- ```install nginx, copy files, edit 4 files, then run```
+```install nginx, copy files, edit 4 files, then run```
 
 
 ## [01]  install and runn "nginx"
@@ -34,11 +34,14 @@ cp -r cable-check ~/cable-check
 ## [03]  edit necesary files
 ```
 sudo nano /etc/ip_list    
-
+```
+```
 sudo nano /etc/nccm.yml   (edit the end)
-
+```
+```
 nano ~/cable-check/devices.sh
-
+```
+```
 nano ~/cable-check/topology.dot
 ```
 
