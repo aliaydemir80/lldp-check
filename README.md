@@ -25,7 +25,7 @@ sudo cp -r etc/* /etc
 
 sudo cp -r html/* /var/www/html/
 
-cp bin/* /usr/local/bin/
+sudo cp bin/* /usr/local/bin/
 
 cp -r cable-check ~/cable-check 
 ```
