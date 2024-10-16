@@ -8,6 +8,7 @@ git clone https://github.com/aliaydemir80/lldp-check.git
 
 cd lldp-check
 
+' install nginx, copy files, edit 4 files, then run '
 
 
 ## [01]  install and runn "nginx"
