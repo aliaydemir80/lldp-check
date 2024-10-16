@@ -1,12 +1,12 @@
 ![](assets/nvidia.png)
 
-# 🚀️ LLDP-Check
+# 🚀️ LLDPq
 
 ## [00] git clone  
 
 git clone https://github.com/aliaydemir80/lldp-check.git
 
-cd lldp-check
+cd lldpq
 
 ```install nginx, copy files, edit 4 files, then run```
 
@@ -19,7 +19,7 @@ sudo systemctl enable --now nginx
 ```
 
 
-## [02]  copy files (cd lldp-check/)
+## [02]  copy files (cd lldpq/)
 ```
 sudo cp -r etc/* /etc
 
@@ -54,16 +54,16 @@ sudo systemctl restart nginx
 
 ## [05]  add cron job
 ```
-echo "0 * * * * cumulus /usr/local/bin/lldp-check" | sudo tee -a /etc/crontab
+echo "0 * * * * cumulus /usr/local/bin/lldpq" | sudo tee -a /etc/crontab
 ```
 
 
  
-# run the LLDP-Check 🚀️
+# run the LLDPq 🚀️
 
 Before running lldp-check', 'ssh-copy-id' must be done on all devices.
 ```
-lldp-check
+lldpq
 ```
 ```
 zzh
