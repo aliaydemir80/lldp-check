@@ -3,11 +3,11 @@ body,html{
 }
 .sourcelabel {
 font-size: 11px;
-fill: #8d092a;
+fill: #7b7b7b;
 }
 .targetlabel {
 font-size: 11px;
-fill: #8d092a;
+fill: #7b7b7b;
 }
 .missing-link {
     stroke: #FF0000 !important;  /* Force the color */
