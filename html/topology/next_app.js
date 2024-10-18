@@ -193,7 +193,7 @@
                     content: [
                         {
                         tag: 'label',
-                        content: 'Source: ',
+                        content: ' ',
                     }, {
                         tag: 'label',
                         content: [
@@ -220,7 +220,7 @@
                     content: [
                         {
                         tag: 'label',
-                        content: 'Target: ',
+                        content: ' ',
                     }, {
                         tag: 'label',
                         content: [
@@ -245,7 +245,7 @@
                 }
             ],
             props: {
-                "style": "width: 150px;"
+                "style": "width: 175px;"
             }
         }]
         }
